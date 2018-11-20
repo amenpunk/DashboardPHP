@@ -1,0 +1,12 @@
+body{
+    background-position:center;
+    background-image: url("back.jpg");
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 800px;
+}
+
+.pad{
+    padding: 5%;
+    background-color: rgba(0,0,255,0.1);
+}

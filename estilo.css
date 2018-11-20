@@ -1,0 +1,33 @@
+nav,ul,li,a{
+    background-color: #333333;
+    
+}
+
+li a:visited{
+    box-shadow:none;
+    text-decoration: none;
+    color: whitesmoke; 
+}
+
+li a:hover:not(.active) {
+    box-shadow:none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.active{
+    color:teal;
+}
+
+.izquierda{
+    background-color:rgba(255,255,0,0.2);
+}
+.derecha{
+    background-color:rgba(102,204,255,0.2);
+}
+
+a:hover{
+    color:teal;
+}
+
+/* Now we are good to duplicate html code for other skills and then add the css code for the new skill based on data-skill */
