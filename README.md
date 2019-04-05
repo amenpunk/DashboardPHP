@@ -1,6 +1,6 @@
 # simple dashboard maked in php mssql and chartjs
 
-![](cut.png)
+<img align="center" width="100" height="100" src="https://github.com/amenpunk/DashboardPHP/blob/master/cut.png">
 
 ## make a canvas object on html
 ``` html
