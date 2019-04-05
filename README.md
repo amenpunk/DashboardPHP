@@ -1,6 +1,6 @@
 # simple dashboard maked in php mssql and chartjs
 
-
+![](cut.png)
 
 ## make a canvas object on html
 ``` html
@@ -29,5 +29,4 @@
                         $experiencias = trim($experiencias,",");
                         $oros = trim($oros,",");
                         $acciones = trim($acciones,",");
-                                ?>
 ```
