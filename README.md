@@ -29,7 +29,7 @@
                         $oros = trim($oros,",");
                         $acciones = trim($acciones,",");
 ```
-## Call the canvas in js and set the data to the Object dataset
+## Call the canvas in js and set the data to the dataset Object 
 
 ``` javascript
 
