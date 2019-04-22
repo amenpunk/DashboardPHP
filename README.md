@@ -1,4 +1,4 @@
-# Simple dashboard maked in php mssql and chartjs
+# Dashboard maked in php mssql and chartjs
 
 ![description](cut.png)
 
@@ -10,7 +10,8 @@
 ## Get the data from mssql with php
 
 ``` php
- $consulta = "SELECT minuto, avg(epm) as m_epm, avg(opm) as m_opm, AVG(apm) m_apm  from desc_partida group by minuto ";
+ $consulta = "SELECT minuto, avg(epm) as m_epm, avg(opm) as m_opm, 
+                AVG(apm) m_apm  from desc_partida group by minuto ";
                 $sql = sqlsrv_query($con, $consulta);
               
                 while($row = sqlsrv_fetch_array($sql)){
@@ -29,10 +30,9 @@
                         $oros = trim($oros,",");
                         $acciones = trim($acciones,",");
 ```
-## Call the canvas in js and set the data to the dataset Object 
+## Get the canvas in js and set the data to dataset Object 
 
 ``` javascript
-
     var ctx = document.getElementById("Chart");
     
     var data = {
